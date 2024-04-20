@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/blogs/",
-  title: "龙傲天的个人笔记",
-  description: "龙傲天真牛逼",
+  title: "二彭",
+  description: "二彭真牛逼",
   head: [["link", { rel: "icon", href: "/blogs/飞天小女警_毛毛.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -21,6 +21,26 @@ export default defineConfig({
           {
             text: "HTML",
             link: "/Front-end/html",
+          },
+          {
+            text: "CSS",
+            link: "/Front-end/css",
+          },
+          {
+            text: "移动web入门",
+            link: "/Front-end/移动web入门",
+          },
+          {
+            text: "JavaScript基础与核心",
+            link: "/Front-end/JavaScript基础与核心",
+          },
+          {
+            text: "Git从安装到基本使用",
+            link: "/Front-end/Git从安装到基本使用",
+          },
+          {
+            text: "vue2",
+            link: "/Front-end/vue2",
           },
         ],
       },
