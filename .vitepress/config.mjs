@@ -2,10 +2,10 @@ import { defineConfig } from "vitepress";
 // import { set_sidebar } from "./utils/auto-gen-sidebar.mjs";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/blog/",
+  base: "/blogs/",
   title: "龙傲天的个人笔记",
   description: "龙傲天真牛逼",
-  head: [["link", { rel: "icon", href: "/blog/飞天小女警_毛毛.svg" }]],
+  head: [["link", { rel: "icon", href: "/blogs/飞天小女警_毛毛.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/飞天小女警_毛毛.svg",
